@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="370dp"
+    tools:ignore="HardcodedText" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Belanja = 0"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/fragment_dialog_total_belanja" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:hint="Masukkan jumlah uang bayar"
+        android:id="@+id/fragment_dialog_inputan_uang_bayar"
+        android:inputType="text"
+        android:background="@drawable/custom_background_edit_text"
+        android:padding="8dp"
+        android:layout_marginBottom="5dp"
+        android:importantForAutofill="no" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bayar"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/fragment_dialog_button_bayar"/>
+</LinearLayout>
