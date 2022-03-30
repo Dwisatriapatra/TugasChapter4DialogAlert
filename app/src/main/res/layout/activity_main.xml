@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Hitung (custom layout)"
+        android:text="Hitung (Fragment Dialog)"
         android:id="@+id/button_hitung_dialog_fragment"
         android:layout_marginBottom="5dp"/>
     <View
